@@ -1,0 +1,112 @@
+{
+  "conversations": [
+    {
+      "id": "conv1",
+      "participants": ["user1", "currentUser"],
+      "messages": [
+        {
+          "id": "msg1",
+          "conversationId": "conv1",
+          "senderId": "user1",
+          "receiverId": "currentUser",
+          "content": "Hi there! I saw your profile and I think you would be a great fit for our company.",
+          "timestamp": "2023-05-01T10:30:00Z",
+          "read": true
+        },
+        {
+          "id": "msg2",
+          "conversationId": "conv1",
+          "senderId": "currentUser",
+          "receiverId": "user1",
+          "content": "Thank you! I appreciate your interest. What position are you hiring for?",
+          "timestamp": "2023-05-01T10:35:00Z",
+          "read": true
+        },
+        {
+          "id": "msg3",
+          "conversationId": "conv1",
+          "senderId": "user1",
+          "receiverId": "currentUser",
+          "content": "We are looking for a Senior Frontend Developer with React and Next.js experience.",
+          "timestamp": "2023-05-01T10:40:00Z",
+          "read": true
+        },
+        {
+          "id": "msg4",
+          "conversationId": "conv1",
+          "senderId": "currentUser",
+          "receiverId": "user1",
+          "content": "That sounds perfect for my skills! I have 5 years of experience with React and 2 years with Next.js.",
+          "timestamp": "2023-05-01T10:45:00Z",
+          "read": true
+        },
+        {
+          "id": "msg5",
+          "conversationId": "conv1",
+          "senderId": "user1",
+          "receiverId": "currentUser",
+          "content": "Great! Would you be available for a technical interview next week?",
+          "timestamp": "2023-05-01T11:00:00Z",
+          "read": true
+        }
+      ]
+    },
+    {
+      "id": "conv2",
+      "participants": ["user2", "currentUser"],
+      "messages": [
+        {
+          "id": "msg6",
+          "conversationId": "conv2",
+          "senderId": "user2",
+          "receiverId": "currentUser",
+          "content": "Thanks for your application. When are you available for an interview?",
+          "timestamp": "2023-05-02T14:15:00Z",
+          "read": false
+        },
+        {
+          "id": "msg7",
+          "conversationId": "conv2",
+          "senderId": "user2",
+          "receiverId": "currentUser",
+          "content": "We would like to schedule it as soon as possible.",
+          "timestamp": "2023-05-02T14:20:00Z",
+          "read": false
+        }
+      ]
+    },
+    {
+      "id": "conv3",
+      "participants": ["user3", "currentUser"],
+      "messages": [
+        {
+          "id": "msg8",
+          "conversationId": "conv3",
+          "senderId": "user3",
+          "receiverId": "currentUser",
+          "content": "Hello! We reviewed your profile and would like to discuss a potential opportunity.",
+          "timestamp": "2023-05-03T09:30:00Z",
+          "read": true
+        },
+        {
+          "id": "msg9",
+          "conversationId": "conv3",
+          "senderId": "currentUser",
+          "receiverId": "user3",
+          "content": "Hi! I would be interested in learning more about the opportunity.",
+          "timestamp": "2023-05-03T09:40:00Z",
+          "read": true
+        },
+        {
+          "id": "msg10",
+          "conversationId": "conv3",
+          "senderId": "user3",
+          "receiverId": "currentUser",
+          "content": "We would like to offer you the position. Let me know if you have any questions.",
+          "timestamp": "2023-05-03T09:45:00Z",
+          "read": true
+        }
+      ]
+    }
+  ]
+}

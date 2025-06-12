@@ -1,0 +1,98 @@
+[
+  {
+    "id": "user1",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "password": "password123",
+    "role": "jobseeker",
+    "avatar": "/placeholder.svg?height=40&width=40",
+    "headline": "Senior Frontend Developer",
+    "location": "San Francisco, CA",
+    "connections": ["user3", "user5"],
+    "createdAt": "2023-01-15T08:00:00Z"
+  },
+  {
+    "id": "user2",
+    "name": "Jane Smith",
+    "email": "jane@example.com",
+    "password": "password123",
+    "role": "recruiter",
+    "avatar": "/placeholder.svg?height=40&width=40",
+    "headline": "Technical Recruiter at Innovate Labs",
+    "location": "New York, NY",
+    "connections": ["user4"],
+    "createdAt": "2023-02-10T10:15:00Z"
+  },
+  {
+    "id": "user3",
+    "name": "Michael Johnson",
+    "email": "michael@example.com",
+    "password": "password123",
+    "role": "jobseeker",
+    "avatar": "/placeholder.svg?height=40&width=40",
+    "headline": "Full Stack Developer",
+    "location": "Austin, TX",
+    "connections": ["user1"],
+    "createdAt": "2023-03-05T15:30:00Z"
+  },
+  {
+    "id": "user4",
+    "name": "Emily Davis",
+    "email": "emily@example.com",
+    "password": "password123",
+    "role": "jobseeker",
+    "avatar": "/placeholder.svg?height=40&width=40",
+    "headline": "UX/UI Designer",
+    "location": "Seattle, WA",
+    "connections": ["user2"],
+    "createdAt": "2023-01-25T09:45:00Z"
+  },
+  {
+    "id": "user5",
+    "name": "David Wilson",
+    "email": "david@example.com",
+    "password": "password123",
+    "role": "recruiter",
+    "avatar": "/placeholder.svg?height=40&width=40",
+    "headline": "Senior Talent Acquisition Specialist",
+    "location": "Chicago, IL",
+    "connections": ["user1"],
+    "createdAt": "2023-02-28T11:20:00Z"
+  },
+  {
+    "id": "user6",
+    "name": "Sarah Brown",
+    "email": "sarah@example.com",
+    "password": "password123",
+    "role": "jobseeker",
+    "avatar": "/placeholder.svg?height=40&width=40",
+    "headline": "DevOps Engineer",
+    "location": "Remote",
+    "connections": [],
+    "createdAt": "2023-03-15T14:10:00Z"
+  },
+  {
+    "id": "user7",
+    "name": "Robert Taylor",
+    "email": "robert@example.com",
+    "password": "password123",
+    "role": "jobseeker",
+    "avatar": "/placeholder.svg?height=40&width=40",
+    "headline": "Data Scientist",
+    "location": "Boston, MA",
+    "connections": [],
+    "createdAt": "2023-02-05T11:30:00Z"
+  },
+  {
+    "id": "user8",
+    "name": "Jennifer Martinez",
+    "email": "jennifer@example.com",
+    "password": "password123",
+    "role": "recruiter",
+    "avatar": "/placeholder.svg?height=40&width=40",
+    "headline": "HR Manager at Global Tech",
+    "location": "San Jose, CA",
+    "connections": [],
+    "createdAt": "2023-01-10T09:15:00Z"
+  }
+]

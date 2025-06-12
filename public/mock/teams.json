@@ -1,0 +1,206 @@
+{
+  "teams": [
+    {
+      "id": "team-1",
+      "name": "Pixel Pioneers",
+      "tagline": "Crafting digital experiences that inspire",
+      "description": "We are a team of passionate developers and designers who have been working together for over 5 years. We specialize in creating beautiful, functional web applications with a focus on user experience.",
+      "logo": "/placeholder.svg?height=200&width=200",
+      "skills": ["React", "Node.js", "UI/UX", "TypeScript", "AWS"],
+      "members": [
+        {
+          "id": "member-1",
+          "name": "Alex Johnson",
+          "role": "Team Lead & Full-stack Developer",
+          "avatar": "/placeholder.svg?height=100&width=100",
+          "linkedIn": "https://linkedin.com/in/alexjohnson",
+          "github": "https://github.com/alexj",
+          "email": "alex@pixelpioneers.dev",
+          "skills": ["React", "Node.js", "TypeScript", "AWS"]
+        },
+        {
+          "id": "member-2",
+          "name": "Sarah Chen",
+          "role": "UI/UX Designer",
+          "avatar": "/placeholder.svg?height=100&width=100",
+          "linkedIn": "https://linkedin.com/in/sarahchen",
+          "github": "https://github.com/sarahc",
+          "skills": ["UI/UX", "Figma", "Adobe XD", "CSS"]
+        },
+        {
+          "id": "member-3",
+          "name": "Michael Rodriguez",
+          "role": "Backend Developer",
+          "avatar": "/placeholder.svg?height=100&width=100",
+          "github": "https://github.com/michaelr",
+          "email": "michael@pixelpioneers.dev",
+          "skills": ["Node.js", "Python", "MongoDB", "AWS"]
+        }
+      ],
+      "projects": [
+        {
+          "id": "project-1",
+          "title": "E-commerce Platform Redesign",
+          "description": "Complete redesign and development of an e-commerce platform serving over 50,000 monthly users.",
+          "technologies": ["React", "Node.js", "MongoDB", "AWS"],
+          "imageUrl": "/placeholder.svg?height=300&width=500",
+          "projectUrl": "https://example.com/project1",
+          "startDate": "2022-03-01",
+          "endDate": "2022-08-15"
+        },
+        {
+          "id": "project-2",
+          "title": "Healthcare Management Dashboard",
+          "description": "A comprehensive dashboard for healthcare providers to manage patient data and appointments.",
+          "technologies": ["React", "TypeScript", "Express", "PostgreSQL"],
+          "imageUrl": "/placeholder.svg?height=300&width=500",
+          "startDate": "2021-09-01",
+          "endDate": "2022-01-30"
+        }
+      ],
+      "availability": {
+        "status": "Available Immediately",
+        "workPreferences": ["Contract", "Full-time", "Startup-friendly"]
+      },
+      "createdAt": "2021-05-15T10:00:00Z",
+      "updatedAt": "2023-04-20T14:30:00Z"
+    },
+    {
+      "id": "team-2",
+      "name": "DevOps Dynamos",
+      "tagline": "Automating the future of software delivery",
+      "description": "Specialized in DevOps practices, cloud infrastructure, and CI/CD pipelines. We help companies streamline their development processes and improve deployment efficiency.",
+      "logo": "/placeholder.svg?height=200&width=200",
+      "skills": ["DevOps", "AWS", "Kubernetes", "Docker", "Terraform"],
+      "members": [
+        {
+          "id": "member-4",
+          "name": "James Wilson",
+          "role": "DevOps Lead",
+          "avatar": "/placeholder.svg?height=100&width=100",
+          "linkedIn": "https://linkedin.com/in/jameswilson",
+          "github": "https://github.com/jamesw",
+          "email": "james@devopsdynamos.io",
+          "skills": ["AWS", "Kubernetes", "Terraform", "CI/CD"]
+        },
+        {
+          "id": "member-5",
+          "name": "Emily Taylor",
+          "role": "Cloud Architect",
+          "avatar": "/placeholder.svg?height=100&width=100",
+          "linkedIn": "https://linkedin.com/in/emilytaylor",
+          "skills": ["AWS", "Azure", "GCP", "Infrastructure as Code"]
+        }
+      ],
+      "projects": [
+        {
+          "id": "project-3",
+          "title": "CI/CD Pipeline Optimization",
+          "description": "Reduced deployment time by 70% through optimization of CI/CD pipelines for a fintech company.",
+          "technologies": ["Jenkins", "Docker", "Kubernetes", "AWS"],
+          "imageUrl": "/placeholder.svg?height=300&width=500",
+          "startDate": "2022-06-01",
+          "endDate": "2022-09-30"
+        }
+      ],
+      "availability": {
+        "status": "Available Soon",
+        "availableFrom": "2023-06-01",
+        "workPreferences": ["Contract", "Startup-friendly"]
+      },
+      "createdAt": "2022-01-10T09:15:00Z",
+      "updatedAt": "2023-05-05T11:45:00Z"
+    },
+    {
+      "id": "team-3",
+      "name": "Mobile Mavericks",
+      "tagline": "Native mobile experiences that delight users",
+      "description": "Focused on creating exceptional mobile applications for iOS and Android. Our team combines technical expertise with creative design to deliver apps that users love.",
+      "logo": "/placeholder.svg?height=200&width=200",
+      "skills": ["React Native", "Swift", "Kotlin", "Firebase", "UI/UX"],
+      "members": [
+        {
+          "id": "member-6",
+          "name": "David Kim",
+          "role": "Mobile Lead",
+          "avatar": "/placeholder.svg?height=100&width=100",
+          "github": "https://github.com/davidk",
+          "email": "david@mobilemavericks.dev",
+          "skills": ["React Native", "Swift", "Kotlin", "Firebase"]
+        },
+        {
+          "id": "member-7",
+          "name": "Lisa Patel",
+          "role": "Mobile UI/UX Designer",
+          "avatar": "/placeholder.svg?height=100&width=100",
+          "linkedIn": "https://linkedin.com/in/lisapatel",
+          "skills": ["UI/UX", "Sketch", "Figma", "Animation"]
+        }
+      ],
+      "projects": [
+        {
+          "id": "project-4",
+          "title": "Fitness Tracking App",
+          "description": "A comprehensive fitness tracking application with social features and personalized workout plans.",
+          "technologies": ["React Native", "Firebase", "Redux", "Node.js"],
+          "imageUrl": "/placeholder.svg?height=300&width=500",
+          "projectUrl": "https://example.com/fitnessapp",
+          "startDate": "2022-01-15",
+          "endDate": "2022-07-30"
+        }
+      ],
+      "availability": {
+        "status": "Not Available",
+        "workPreferences": ["Full-time"]
+      },
+      "createdAt": "2021-11-20T14:20:00Z",
+      "updatedAt": "2023-03-15T09:10:00Z"
+    },
+    {
+      "id": "team-4",
+      "name": "Data Science Wizards",
+      "tagline": "Turning data into actionable insights",
+      "description": "Experts in data analysis, machine learning, and AI. We help businesses make data-driven decisions and implement intelligent solutions.",
+      "logo": "/placeholder.svg?height=200&width=200",
+      "skills": ["Python", "Machine Learning", "Data Analysis", "TensorFlow", "SQL"],
+      "members": [
+        {
+          "id": "member-8",
+          "name": "Robert Chen",
+          "role": "Data Science Lead",
+          "avatar": "/placeholder.svg?height=100&width=100",
+          "linkedIn": "https://linkedin.com/in/robertchen",
+          "github": "https://github.com/robertc",
+          "email": "robert@datasciencewizards.ai",
+          "skills": ["Python", "Machine Learning", "TensorFlow", "Statistics"]
+        },
+        {
+          "id": "member-9",
+          "name": "Sophia Martinez",
+          "role": "ML Engineer",
+          "avatar": "/placeholder.svg?height=100&width=100",
+          "github": "https://github.com/sophiam",
+          "skills": ["Python", "TensorFlow", "PyTorch", "NLP"]
+        }
+      ],
+      "projects": [
+        {
+          "id": "project-5",
+          "title": "Customer Churn Prediction Model",
+          "description": "Developed a machine learning model to predict customer churn with 85% accuracy for a telecommunications company.",
+          "technologies": ["Python", "Scikit-learn", "Pandas", "AWS SageMaker"],
+          "imageUrl": "/placeholder.svg?height=300&width=500",
+          "startDate": "2022-04-01",
+          "endDate": "2022-08-15"
+        }
+      ],
+      "availability": {
+        "status": "Available from Future Date",
+        "availableFrom": "2023-07-15",
+        "workPreferences": ["Contract", "Full-time"]
+      },
+      "createdAt": "2022-02-05T11:30:00Z",
+      "updatedAt": "2023-04-10T16:45:00Z"
+    }
+  ]
+}

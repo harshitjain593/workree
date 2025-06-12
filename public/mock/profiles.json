@@ -1,0 +1,146 @@
+[
+  {
+    "id": "profile1",
+    "userId": "user1",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "phone": "+1 (555) 123-4567",
+    "skills": [
+      {
+        "id": "javascript",
+        "name": "JavaScript"
+      },
+      {
+        "id": "react",
+        "name": "React"
+      },
+      {
+        "id": "next-js",
+        "name": "Next.js"
+      },
+      {
+        "id": "typescript",
+        "name": "TypeScript"
+      },
+      {
+        "id": "node-js",
+        "name": "Node.js"
+      }
+    ],
+    "currentCompany": "Tech Solutions Inc.",
+    "noticePeriod": "30 Days",
+    "availability": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "timeSlots": ["Morning (9AM-12PM)", "Afternoon (12PM-3PM)"]
+    },
+    "projects": [
+      {
+        "id": "project1",
+        "title": "E-commerce Platform",
+        "description": "Built a full-stack e-commerce platform with React, Next.js, and Node.js.",
+        "technologies": ["React", "Next.js", "Node.js", "MongoDB"],
+        "url": "https://example.com/project1"
+      },
+      {
+        "id": "project2",
+        "title": "Task Management App",
+        "description": "Developed a task management application with real-time updates.",
+        "technologies": ["React", "Firebase", "Tailwind CSS"],
+        "url": "https://example.com/project2"
+      }
+    ],
+    "createdAt": "2023-01-15T10:30:00Z",
+    "updatedAt": "2023-04-20T14:45:00Z"
+  },
+  {
+    "id": "profile2",
+    "userId": "user3",
+    "name": "Robert Johnson",
+    "email": "robert@example.com",
+    "phone": "+1 (555) 987-6543",
+    "skills": [
+      {
+        "id": "python",
+        "name": "Python"
+      },
+      {
+        "id": "django",
+        "name": "Django"
+      },
+      {
+        "id": "react",
+        "name": "React"
+      },
+      {
+        "id": "aws",
+        "name": "AWS"
+      }
+    ],
+    "currentCompany": "Global Systems",
+    "noticePeriod": "60 Days",
+    "availability": {
+      "days": ["Monday", "Wednesday", "Friday"],
+      "timeSlots": ["Afternoon (12PM-3PM)", "Evening (3PM-6PM)"]
+    },
+    "projects": [
+      {
+        "id": "project3",
+        "title": "CRM System",
+        "description": "Developed a customer relationship management system for a large enterprise.",
+        "technologies": ["Python", "Django", "React", "PostgreSQL"],
+        "url": "https://example.com/project3"
+      }
+    ],
+    "createdAt": "2023-02-10T09:15:00Z",
+    "updatedAt": "2023-04-15T11:30:00Z"
+  },
+  {
+    "id": "profile3",
+    "userId": "user5",
+    "name": "Emily Chen",
+    "email": "emily@example.com",
+    "phone": "+1 (555) 456-7890",
+    "skills": [
+      {
+        "id": "java",
+        "name": "Java"
+      },
+      {
+        "id": "spring-boot",
+        "name": "Spring Boot"
+      },
+      {
+        "id": "angular",
+        "name": "Angular"
+      },
+      {
+        "id": "sql",
+        "name": "SQL"
+      }
+    ],
+    "currentCompany": "Innovate Labs",
+    "noticePeriod": "15 Days",
+    "availability": {
+      "days": ["Tuesday", "Thursday", "Saturday"],
+      "timeSlots": ["Morning (9AM-12PM)", "Night (6PM-9PM)"]
+    },
+    "projects": [
+      {
+        "id": "project4",
+        "title": "Banking Application",
+        "description": "Built a secure banking application with Java and Spring Boot.",
+        "technologies": ["Java", "Spring Boot", "Angular", "MySQL"],
+        "url": "https://example.com/project4"
+      },
+      {
+        "id": "project5",
+        "title": "Inventory Management System",
+        "description": "Developed an inventory management system for retail businesses.",
+        "technologies": ["Java", "Spring Boot", "React", "PostgreSQL"],
+        "url": "https://example.com/project5"
+      }
+    ],
+    "createdAt": "2023-03-05T13:20:00Z",
+    "updatedAt": "2023-04-25T16:10:00Z"
+  }
+]

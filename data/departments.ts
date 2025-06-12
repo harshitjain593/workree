@@ -1,0 +1,15 @@
+export const departments = [
+  { value: "engineering", label: "Engineering" },
+  { value: "design", label: "Design" },
+  { value: "product", label: "Product" },
+  { value: "marketing", label: "Marketing" },
+  { value: "sales", label: "Sales" },
+  { value: "hr", label: "Human Resources" },
+  { value: "finance", label: "Finance" },
+  { value: "operations", label: "Operations" },
+  { value: "customer-success", label: "Customer Success" },
+  { value: "data", label: "Data & Analytics" },
+  { value: "security", label: "Security" },
+  { value: "legal", label: "Legal" },
+  { value: "other", label: "Other" },
+]

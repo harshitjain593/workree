@@ -127,3 +127,4 @@ export default function JobEditPage({ params }: { params: { id: string } }) {
       description: "Your job has been updated.",
     })
   }
+}

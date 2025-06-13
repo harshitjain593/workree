@@ -90,7 +90,7 @@ export default function PostJobPage() {
   })
 
   // Redirect if not authenticated or not a recruiter
-  if (!isAuthenticated || user?.role !== "recruiter") {
+  if (!isAuthenticated || user?.role !== "company_admin") {
     if (typeof window !== "undefined") {
       router.push("/login")
     }

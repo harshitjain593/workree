@@ -195,7 +195,7 @@ export default function FloatingChat() {
     setMessage("")
   }
 
-  const handleStartNewChat = (user: { id: string; name: string; avatar: string; title: string }) => {
+  const handleStartNewChat = (user: { id: string; name: string; avatar: string; title?: string }) => {
     // Check if conversation already exists
     const existingConv = conversations.find(
       (conv) => conv.type === "direct" && "participantId" in conv && conv.participantId === user.id

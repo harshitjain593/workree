@@ -8,7 +8,19 @@ import { Badge } from "@/components/ui/badge"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { CheckCircle, Clock, Award, ArrowRight } from "lucide-react"
 
-const assessments = [
+interface Assessment {
+  id: string
+  name: string
+  description: string
+  questions: number
+  timeLimit: number
+  difficulty: "Beginner" | "Intermediate" | "Advanced"
+  popular: boolean
+  completed: boolean
+  score?: number
+}
+
+const assessments: Assessment[] = [
   {
     id: "js",
     name: "JavaScript",
@@ -149,18 +161,18 @@ export default function SkillAssessment() {
 
                       <div className="flex items-center">
                         <div className="mr-4">
-                          <div className="text-2xl font-bold text-[#0077B5]">{assessment.score}%</div>
+                          <div className="text-2xl font-bold text-[#0077B5]">{assessment.score ?? 0}%</div>
                           <div className="text-xs text-gray-500">Your Score</div>
                         </div>
 
                         <div className="flex items-center gap-2">
                           <Award className="h-5 w-5 text-yellow-500" />
                           <span className="text-sm font-medium">
-                            {assessment.score >= 90
+                            {assessment.score && assessment.score >= 90
                               ? "Expert"
-                              : assessment.score >= 80
+                              : assessment.score && assessment.score >= 80
                                 ? "Advanced"
-                                : assessment.score >= 70
+                                : assessment.score && assessment.score >= 70
                                   ? "Intermediate"
                                   : "Beginner"}
                           </span>

@@ -1,7 +1,6 @@
 "use client"
 
 import type React from "react"
-
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
@@ -9,16 +8,18 @@ import { Progress } from "@/components/ui/progress"
 import { Separator } from "@/components/ui/separator"
 import { FileUp, CheckCircle, AlertCircle, Info } from "lucide-react"
 
+interface AnalysisResults {
+  score: number
+  strengths: string[]
+  weaknesses: string[]
+  suggestions: string[]
+  keywords: { word: string; count: number }[]
+}
+
 export default function ResumeAnalyzer() {
   const [file, setFile] = useState<File | null>(null)
   const [analyzing, setAnalyzing] = useState(false)
-  const [results, setResults] = useState<null | {
-    score: number
-    strengths: string[]
-    weaknesses: string[]
-    suggestions: string[]
-    keywords: { word: string; count: number }[]
-  }>(null)
+  const [results, setResults] = useState<AnalysisResults | null>(null)
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {

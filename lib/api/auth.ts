@@ -5,7 +5,7 @@ export interface RegisterData {
   password: string;
   firstName: string;
   lastName: string;
-  role: 'RECRUITER' | 'JOB_SEEKER';
+  role: 'COMPANY_ADMIN' | 'JOB_SEEKER';
 }
 
 export interface LoginData {

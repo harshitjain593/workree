@@ -53,14 +53,6 @@ export default function LoginPage() {
     }
   }, [isAuthenticated, router, activeTab])
 
-  // Add a debug message to show login credentials
-  useEffect(() => {
-    // Display available login credentials for demo purposes
-    console.log("Available login credentials for demo:")
-    console.log("Email: john@example.com, Password: password123 (Job Seeker)")
-    console.log("Email: jane@example.com, Password: password123 (Recruiter)")
-  }, [])
-
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault()
     try {
@@ -91,7 +83,7 @@ export default function LoginPage() {
     const lastName = lastNameArray.join(' ')
     
     // Map the lowercase role from state to the uppercase role string expected by the backend
-    const apiRole = userRole === 'jobseeker' ? 'JOB_SEEKER' : 'RECRUITER';
+    const apiRole = userRole === 'jobseeker' ? 'JOB_SEEKER' : 'COMPANY_ADMIN';
 
     try {
       console.log('Starting registration process with:', { firstName, lastName, email, role: apiRole });
@@ -150,32 +142,7 @@ export default function LoginPage() {
                     </Alert>
                   )}
 
-                  <div className="space-y-4">
-                    <Label className="dark:text-gray-300">I want to:</Label>
-                    <RadioGroup defaultValue={userRole} onValueChange={setUserRole as (value: string) => void} className="grid grid-cols-2 gap-4">
-                      <div>
-                        <RadioGroupItem value="jobseeker" id="jobseeker" className="peer sr-only" />
-                        <Label
-                          htmlFor="jobseeker"
-                          className="flex flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-[#00A0DC] dark:peer-data-[state=checked]:border-[#00A0DC] dark:peer-data-[state=checked]:text-[#00A0DC] [&:has([data-state=checked])]:border-primary cursor-pointer transition-all"
-                        >
-                          <User className="mb-2 h-6 w-6" />
-                          Find a Job
-                        </Label>
-                      </div>
-                      <div>
-                        <RadioGroupItem value="recruiter" id="recruiter" className="peer sr-only" />
-                        <Label
-                          htmlFor="recruiter"
-                          className="flex flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-[#00A0DC] dark:peer-data-[state=checked]:border-[#00A0DC] dark:peer-data-[state=checked]:text-[#00A0DC] [&:has([data-state=checked])]:border-primary cursor-pointer transition-all"
-                        >
-                          <Briefcase className="mb-2 h-6 w-6" />
-                          Hire Talent
-                        </Label>
-                      </div>
-                    </RadioGroup>
-                  </div>
-
+                  
                   <div className="space-y-2">
                     <Label htmlFor="email" className="dark:text-gray-300">
                       Email
@@ -246,9 +213,9 @@ export default function LoginPage() {
                         </Label>
                       </div>
                       <div>
-                        <RadioGroupItem value="recruiter" id="signup-recruiter" className="peer sr-only" />
+                        <RadioGroupItem value="company_admin" id="signup-company_admin" className="peer sr-only" />
                         <Label
-                          htmlFor="signup-recruiter"
+                          htmlFor="signup-company_admin"
                           className="flex flex-col items-center justify-between rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-[#00A0DC] dark:peer-data-[state=checked]:border-[#00A0DC] dark:peer-data-[state=checked]:text-[#00A0DC] [&:has([data-state=checked])]:border-primary cursor-pointer transition-all"
                         >
                           <Briefcase className="mb-2 h-6 w-6" />
